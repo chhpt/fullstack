@@ -15,10 +15,9 @@ script:
 deploy:
     repo: chhpt/chhpt.github.io
     provider: pages
-    skip-cleanup: true
-    github-token: $GITHUB_TOKEN
-    local-dir: ./docs/.vuepress/dist/
-    target-branch: gh-pages
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    local_dir: ./docs/.vuepress/dist/
     verbose: true
     on:
         branch: master
