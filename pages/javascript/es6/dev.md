@@ -170,10 +170,12 @@ settings->Tools->File watchers
 
 Babel 也可以用于浏览器环境。但是，从 Babel 6.0 开始，不再直接提供浏览器版本，而是要用构建工具构建出来。如果你没有或不想使用构建工具，可以使用 babel-standalone 模块提供的浏览器版本，将其插入网页。
 
+```html
  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.4.4/babel.min.js"></script>
  <script type="text/babel">
  // Your ES6 code
  </script>
+```
 
 注意，网页实时将 ES6 代码转为 ES5，对性能会有影响。生产环境需要加载已经转码完成的脚本。
 

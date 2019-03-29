@@ -189,13 +189,6 @@ module.exports = {
     plugins: {
         '@vuepress/active-header-links': false,
         '@vuepress/medium-zoom': true,
-        '@vuepress/container': true,
-        '@vuepress/last-updated': {
-            transformer(timestamp) {
-                const time = dayjs(timestamp).format('YYYY-MM-DD HH:mm:ss');
-                console.log(time);
-                return time;
-            }
-        }
+        '@vuepress/container': true
     }
 };
