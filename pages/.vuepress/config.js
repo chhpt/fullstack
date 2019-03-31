@@ -5,7 +5,7 @@ require('dayjs/locale/zh-cn');
 dayjs.locale('zh-cn');
 
 module.exports = {
-    base: '/the-web-full-stack-way/',
+    base: '/the-full-stack-way/',
     title: 'The Web Full Stack Way',
     theme: '@vuepress/default',
     locales: {
@@ -62,7 +62,7 @@ module.exports = {
             { text: '数据库', link: '/database/' },
             { text: 'Docker', link: '/docker/' },
             { text: '工具', link: '/tools/' },
-            { text: 'Github', link: 'https://github.com/chhpt/the-web-full-stack-way' }
+            { text: 'Github', link: 'https://github.com/chhpt/the-full-stack-way' }
         ],
         displayAllHeaders: true,
         lastUpdated: '上次更新',
@@ -187,8 +187,17 @@ module.exports = {
         }
     },
     plugins: {
-        '@vuepress/active-header-links': false,
+        '@vuepress/active-header-links': {
+            sidebarLinkSelector: '.sidebar-link',
+            headerAnchorSelector: '.header-anchor',
+            headerTopOffset: 100
+        },
         '@vuepress/medium-zoom': true,
-        '@vuepress/container': true
+        '@vuepress/container': true,
+        '@vuepress/last-updated': {
+            transformer: timestamp => {
+                return dayjs(timestamp).format('YYYY-MM-DD HH:mm:ss');
+            }
+        }
     }
 };

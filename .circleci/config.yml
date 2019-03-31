@@ -44,4 +44,4 @@ jobs:
                       git config user.name "chhpt"
                       git add -A
                       git commit -m "circle ci build auto commit [ci skip]"
-                      git push git@github.com:chhpt/the-web-full-stack-way.git master
+                      git push git@github.com:chhpt/the-full-stack-way.git master
