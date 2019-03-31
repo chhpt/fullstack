@@ -32,7 +32,7 @@ jobs:
 
             - add_ssh_keys:
                   fingerprints:
-                      - 'd9:51:84:ba:82:d0:ae:01:65:6b:b0:ea:a9:93:21:fe'
+                      - 'b0:50:e7:61:6e:1a:ca:7e:06:0e:ac:bc:3a:b1:bb:91'
 
             - deploy:
                   name: Trigger docs deployment, commit and push
