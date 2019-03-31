@@ -24,6 +24,9 @@ jobs:
             - run:
                   name: Build docs
                   command: yarn run build
+            - run:
+                  name: Copy build files
+                  command: cp -r pages/.vuepress/dist/* docs/
 
             - save_cache:
                   paths:
@@ -39,5 +42,6 @@ jobs:
                   command: |
                       git config user.email "cwuyiqing@gmail.com"
                       git config user.name "chhpt"
-                      git commit -am "circle ci build auto commit"
+                      git add -A
+                      git commit -m "circle ci build auto commit [ci skip]"
                       git push git@github.com:chhpt/the-web-full-stack-way.git master
