@@ -1,0 +1,43 @@
+# Javascript Node CircleCI 2.0 configuration file
+# Check https://circleci.com/docs/2.0/language-javascript/ for more details
+
+version: 2
+jobs:
+    build:
+        docker:
+            # specify the version you desire here
+            - image: circleci/node:10.15.2
+        working_directory: ~/repo
+
+        steps:
+            - checkout
+
+            - restore_cache:
+                  keys:
+                      - v1-dependencies-{{ checksum "package.json" }}
+                        # fallback to using the latest cache if no exact match is found
+                      - v1-dependencies-
+
+            - run:
+                  name: Install dependency
+                  command: yarn install
+            - run:
+                  name: Build docs
+                  command: yarn run build
+
+            - save_cache:
+                  paths:
+                      - node_modules
+                  key: v1-dependencies-{{ checksum "package.json" }}
+
+            - add_ssh_keys:
+                  fingerprints:
+                      - 'd9:51:84:ba:82:d0:ae:01:65:6b:b0:ea:a9:93:21:fe'
+
+            - deploy:
+                  name: Trigger docs deployment, commit and push
+                  command: |
+                      git config user.email "cwuyiqing@gmail.com"
+                      git config user.name "chhpt"
+                      git commit -am "circle ci build auto commit"
+                      git push git@github.com:chhpt/the-web-full-stack-way.git master

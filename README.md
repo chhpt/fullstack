@@ -1,5 +1,7 @@
 # The Web Full Stack Way
 
+[![CircleCI](https://circleci.com/gh/chhpt/the-web-full-stack-way.svg?style=svg)](https://circleci.com/gh/chhpt/the-web-full-stack-way)
+
 从 Web 前端，探索 Full Stack 之路。
 
 ### 目录
