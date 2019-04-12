@@ -95,3 +95,8 @@ Vue 2.0 引入了 VDOM， Vue 作者尤雨溪的文章：
 
 - [从 vue-router 看前端路由的两种实现](https://zhuanlan.zhihu.com/p/27588422)
 - [vue-router源码分析-整体流程](https://github.com/DDFE/DDFE-blog/issues/9)
+
+### 相关文章
+
+- [Vue.js 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
+- [Vue 技术内幕](http://hcysun.me/vue-design/)

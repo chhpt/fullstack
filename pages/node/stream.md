@@ -1,4 +1,4 @@
-# 流
+# Stream
 
 ## 流是什么
 
@@ -9,7 +9,6 @@
 - 双工流
 - 转换流
 
-
-- [Node.js Streams: Everything you need to know](https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93)
-- [Backpressuring in Streams](https://nodejs.org/en/docs/guides/backpressuring-in-streams/)
-- [stream-handbook](https://github.com/substack/stream-handbook)
+* [Node.js Streams: Everything you need to know](https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93)
+* [Backpressuring in Streams](https://nodejs.org/en/docs/guides/backpressuring-in-streams/)
+* [stream-handbook](https://github.com/substack/stream-handbook)

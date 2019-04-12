@@ -148,3 +148,4 @@ var p = new Proxy(target, {
 - [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
 - [ECMAScript 6 Features](https://github.com/lukehoban/es6features)
 - [近一万字的ES6语法知识点补充](https://juejin.im/post/5c6234f16fb9a049a81fcca5?utm_source=gold_browser_extension#heading-34)
+- [ES6、ES7、ES8、ES9、ES10新特性一览](https://juejin.im/post/5ca2e1935188254416288eb2#heading-32)

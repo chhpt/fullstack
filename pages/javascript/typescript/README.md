@@ -171,7 +171,9 @@ N.NN.a();
 
 TS 除了支持 ES6 的模块系统之外，还支持命名空间。这在管理复杂模块的内部时比较有用。
 
-## Sources
+## 相关文章
 
-- [TypeScript 体系调研报告](https://juejin.im/post/59c46bc86fb9a00a4636f939#heading-4)
-- [初探 TypeScript](https://juejin.im/post/5b3b9729f265da0f4b7a6e08#heading-21)
+- [TypeScript 体系调研报告](https://juejin.im/post/59c46bc86fb9a00a4636f939)
+- [初探 TypeScript](https://juejin.im/post/5b3b9729f265da0f4b7a6e08)
+- [巧用 Typescript](https://zhuanlan.zhihu.com/p/39620591)
+- [clean-code-typescript](https://github.com/labs42io/clean-code-typescript)

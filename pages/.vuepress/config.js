@@ -6,7 +6,7 @@ dayjs.locale('zh-cn');
 
 module.exports = {
     base: '/the-full-stack-way/',
-    title: 'The Web Full Stack Way',
+    title: 'The Full Stack Way',
     theme: '@vuepress/default',
     locales: {
         '/': {
@@ -181,7 +181,7 @@ module.exports = {
                 {
                     title: '编辑器',
                     collapsable: false,
-                    children: ['editor/vscode/', 'editor/vscode/plugin']
+                    children: ['vscode/', 'vscode/plugin']
                 }
             ]
         }
