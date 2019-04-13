@@ -12,8 +12,8 @@ VSCode 中语言是通过插件的形式修改，可以搜索安装 [Chinese (Si
 
 ### 主题
 
--   [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)
--   [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
+- [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)
+- [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)
 
 推荐指数：★★★★★
 
@@ -27,9 +27,9 @@ VSCode 中语言是通过插件的形式修改，可以搜索安装 [Chinese (Si
 
 ### 对比
 
-![](../../pics/vscode/theme-before.png)
+![](../pics/vscode/theme-before.png)
 
-![](../../pics/vscode/theme-after.png)
+![](../pics/vscode/theme-after.png)
 
 ## [插件](./plugin.md)
 
@@ -132,7 +132,7 @@ VSCode 用户配置/项目配置
 
 ## 代码调试
 
-![](../../pics/vscode/debug-1.png)
+![](../pics/vscode/debug-1.png)
 
 基本配置
 
@@ -159,7 +159,7 @@ VSCode 用户配置/项目配置
 
 配置完成后，就可以进行基本的调试工作了，启动调试程序后，可以看到下面的类似界面
 
-![](../../pics/vscode/debug-2.png)
+![](../pics/vscode/debug-2.png)
 
 这里有各种基本的信息，相信大家都会用啦，就不细说了，可以自己探索一下。
 
@@ -167,7 +167,7 @@ VSCode 用户配置/项目配置
 
 从命令面板中可以访问 VSCode 的所有功能，包含快大多数常用操作的捷键。可以通过：查看 => 命令面板 打开，初始快捷键为 `Command/Ctrl + Shift + P`。
 
-![](../../pics/vscode/command-palette.png)
+![](../pics/vscode/command-palette.png)
 
 ### 常用选项
 
@@ -175,7 +175,7 @@ VSCode 用户配置/项目配置
 
 居中布局可以让编辑的区域显示在中间，而不是靠左边，喜欢的同学可以自行开启。
 
-![](../../pics/vscode/center-layout.png)
+![](../pics/vscode/center-layout.png)
 
 #### 2. Project Manager 保存项目路径
 
@@ -191,7 +191,7 @@ Project Manager 插件在前面的插件专题中介绍过，可以帮助我们�
 
 左下角设置图标 => 用户代码片段或者使用命令面板搜索 `snippets`，选择配置用户代码片段。然后可以在命令面板中选择现有的代码片段进行修改，或者新建一个全局代码片段。代码片段是一个 JSON 格式的文件，一般以下这样的结构：
 
-![](../../pics/vscode/snippet.png)
+![](../pics/vscode/snippet.png)
 
 常用关键字：
 
@@ -206,16 +206,16 @@ Project Manager 插件在前面的插件专题中介绍过，可以帮助我们�
 
 工作区是 VSCode 中一个比较有用的概念，你可以将多个文件夹（项目）添加到一个工作区中，VSCode 会载入多个文件夹（项目）的内容，你可以随意的选择任意文件夹（项目）中的文件进行编辑，也可以选择不同文件夹（项目）中的文件进行比较。你可以将工作区保存为一个 JSON 配置文件，下次可以直接通过 JSON 文件恢复你的工作区。
 
-![](../../pics/vscode/workspace.png)
+![](../pics/vscode/workspace.png)
 
 ## 文件比较
 
 文件比较是 VSCode 中的一个小功能，但是还是很实用的。你可以在资源管理器中选择文件，鼠标右键选中文件进行比较。下面随意选择了两个文件进行比较：
 
-![](../../pics/vscode/compare.png)
+![](../pics/vscode/compare.png)
 
 ## 大纲
 
 VSCode 资源管理器（左侧边栏）内置了大纲功能，提供了 JavaScript，TypeScript，Markdown 等源代码中的各种符号，比如变量名、类名、方法名，标题等，并支持快速跳转，翻看老代码、开源项目代码时非常有用。
 
-![](../../pics/vscode/outline.png)
+![](../pics/vscode/outline.png)

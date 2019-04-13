@@ -8,17 +8,17 @@
 
 ### 语法支持
 
--   [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)： 提供 Vue 文件的语法高亮，自动补全，格式化等
--   [minapp](https://marketplace.visualstudio.com/items?itemName=qiu8310.minapp-vscode)：微信小程序标签、属性的智能补全
--   [Beautify css/sass/scss/less](https://marketplace.visualstudio.com/items?itemName=michelemelluso.code-beautifier)： 格式 CSS，Less，Sass 等样式文件
+- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)： 提供 Vue 文件的语法高亮，自动补全，格式化等
+- [minapp](https://marketplace.visualstudio.com/items?itemName=qiu8310.minapp-vscode)：微信小程序标签、属性的智能补全
+- [Beautify css/sass/scss/less](https://marketplace.visualstudio.com/items?itemName=michelemelluso.code-beautifier)： 格式 CSS，Less，Sass 等样式文件
 
 ### 风格检查
 
 在提交时做强制检查，从团队的视角保证编码风格的规范性和一致性。
 
--   [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)： 提供 ESLint 检测
--   [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)：代码格式化的工具标准，支持格式化几乎所有的前端代码，并且类似于 EditorConfig 支持用文件来配置格式规则
--   [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)：统一编辑器之间的基本配置，通过 .editorconfig 文件进行配置
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)： 提供 ESLint 检测
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)：代码格式化的工具标准，支持格式化几乎所有的前端代码，并且类似于 EditorConfig 支持用文件来配置格式规则
+- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)：统一编辑器之间的基本配置，通过 .editorconfig 文件进行配置
 
 ## 推荐插件
 
@@ -30,7 +30,7 @@
 
 推荐指数：★★★★
 
-![](../../pics/vscode/auto-close-tag.gif)
+![](../pics/vscode/auto-close-tag.gif)
 
 ### [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
@@ -38,7 +38,7 @@
 
 推荐指数：★★★★
 
-![](../../pics/vscode/auto-rename-tag.gif)
+![](../pics/vscode/auto-rename-tag.gif)
 
 ### [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
@@ -46,7 +46,7 @@
 
 推荐指数：★★★★★
 
-![](../../pics/vscode/path-inte.gif)
+![](../pics/vscode/path-inte.gif)
 
 ### [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 
@@ -54,13 +54,13 @@ NPM 依赖补全，在你引入任何 node_modules 里面的依赖包时提供�
 
 推荐指数：★★★★★
 
-![](../../pics/vscode/npm-inte.gif)
+![](../pics/vscode/npm-inte.gif)
 
 ### 代码片段
 
 代码片段英文叫做 Code Snippets，市面上主流的编辑器也都支持，其基本思想就是把常见的代码模式抽出来，通过 2~3 个键就能展开 N 行代码，代码片段的积累一方面是根据个人习惯，另一方面是学习社区里面积累出来的好的编码模式，如果觉得不适合你，可以改（找个现有的插件依葫芦画瓢），推荐一些代码片断：
 
--   [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+- [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 
 推荐指数：★★★★★
 
@@ -72,7 +72,7 @@ NPM 依赖补全，在你引入任何 node_modules 里面的依赖包时提供�
 
 推荐指数：★★★★
 
-![](../../pics/vscode/bracket-pair-color.png)
+![](../pics/vscode/bracket-pair-color.png)
 
 ### [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
 
@@ -80,7 +80,7 @@ NPM 依赖补全，在你引入任何 node_modules 里面的依赖包时提供�
 
 推荐指数：★★★★
 
-![](../../pics/vscode/project-manage.png)
+![](../pics/vscode/project-manage.png)
 
 ### [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
@@ -88,7 +88,7 @@ Git 增强插件，可以查看本地文件修改，历史提交记录，分支�
 
 推荐指数：★★★★
 
-![](../../pics/vscode/git-lens.png)
+![](../pics/vscode/git-lens.png)
 
 ### [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 
@@ -96,7 +96,7 @@ Git 增强插件，可以查看本地文件修改，历史提交记录，分支�
 
 推荐指数：★★★★
 
-![](../../pics/vscode/todo.png)
+![](../pics/vscode/todo.png)
 
 ### [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
@@ -104,7 +104,7 @@ Git 增强插件，可以查看本地文件修改，历史提交记录，分支�
 
 推荐指数：★★★★
 
-![](../../pics/vscode/code-runner.gif)
+![](../pics/vscode/code-runner.gif)
 
 ### [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
@@ -120,4 +120,4 @@ GIF 图片较大，请直接点开链接观看效果。
 
 推荐指数：★★★★
 
-![](../../pics/vscode/code-spell.gif)
+![](../pics/vscode/code-spell.gif)
