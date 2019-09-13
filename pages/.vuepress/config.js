@@ -1,5 +1,4 @@
 const dayjs = require('dayjs');
-const path = require('path');
 require('dayjs/locale/zh-cn');
 
 dayjs.locale('zh-cn');
