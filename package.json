@@ -23,11 +23,11 @@
     "homepage": "https://github.com/chhpt/the-full-stack-way#readme",
     "dependencies": {},
     "devDependencies": {
-        "@vuepress/plugin-active-header-links": "^1.0.4",
+        "@vuepress/plugin-active-header-links": "^1.2.0",
         "@vuepress/plugin-container": "^1.0.0-alpha.44",
-        "@vuepress/plugin-medium-zoom": "^1.0.4",
-        "@vuepress/theme-default": "^1.0.4",
+        "@vuepress/plugin-medium-zoom": "^1.2.0",
+        "@vuepress/theme-default": "^1.2.0",
         "dayjs": "^1.8.16",
-        "vuepress": "^1.0.4"
+        "vuepress": "^1.2.0"
     }
 }

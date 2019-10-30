@@ -133,10 +133,6 @@ target.dispatchEvent(event);
 
 自定义事件的机制如普通事件一样——监听事件，写回调操作，触发事件后执行回调。但不同的是，自定义事件完全由我们控制触发时机，这就意味着实现了一种 JavaScript 的解耦。我们可以把多个关联但逻辑复杂的操作利用自定义事件的机制灵活地控制好。
 
-### 参考
-
-* [JS 事件模型](https://segmentfault.com/a/1190000006934031#articleHeader6)
-
 ## 事件代理
 
 当页面中存在大量元素，而且每一个都要一次或多次绑定事件处理器（比如 onclick）时，由于每绑定一个事件处理器都是有代价的，所以这种情况会随着 DOM 元素的增多而严重影响页面性能。
@@ -173,3 +169,7 @@ window 对象是 JS 中的顶级对象，所有定义在全局作用域中的变
 
 * w3c 标准 window.getComputedStyle(elemnet,[null\|pseudoElt)
 * IE 浏览器 element.currentStyle
+
+### 参考
+
+* [JS 事件模型](https://segmentfault.com/a/1190000006934031#articleHeader6)

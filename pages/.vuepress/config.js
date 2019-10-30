@@ -1,7 +1,8 @@
-const dayjs = require('dayjs');
-require('dayjs/locale/zh-cn');
+const dayjs = require('dayjs')
+const blogList = require('./blog')
+require('dayjs/locale/zh-cn')
 
-dayjs.locale('zh-cn');
+dayjs.locale('zh-cn')
 
 module.exports = {
     base: '/the-full-stack-way/',
@@ -15,6 +16,7 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: '首页', link: '/' },
+            { text: '博客', link: '/blog/' },
             {
                 text: '计算机基础',
                 items: [
@@ -48,8 +50,12 @@ module.exports = {
                         link: '/engineering/'
                     },
                     {
-                        text: '框架',
-                        link: '/framework/'
+                        text: 'React',
+                        link: '/react/'
+                    },
+                    {
+                        text: 'Vue',
+                        link: '/vue/'
                     },
                     { text: '小程序', link: '/mini-program/' }
                 ]
@@ -66,43 +72,21 @@ module.exports = {
         displayAllHeaders: true,
         lastUpdated: '上次更新',
         sidebar: {
-            '/data-structure-and-algorithms/': [
-                '',
-                'problems',
-                'array/',
-                'string/',
-                'linked-list/'
-            ],
+            '/blog/': blogList,
+            '/data-structure-and-algorithms/': ['', 'problems', 'array/', 'string/', 'linked-list/'],
             '/docker/': ['', 'intro'],
             '/engineering/': [
                 {
                     title: '工程化',
                     collapsable: false,
-                    children: [
-                        '',
-                        'modular',
-                        'webpack/',
-                        'webpack/webpack_1',
-                        'webpack/webpack_2',
-                        'webpack/loader'
-                    ]
+                    children: ['', 'modular', 'webpack/', 'webpack/webpack_1', 'webpack/webpack_2', 'webpack/loader']
                 }
             ],
-            '/framework/': [
+            '/react/': [
                 {
-                    title: '框架',
+                    title: 'React 基础',
                     collapsable: false,
-                    children: ['']
-                },
-                {
-                    title: 'Vue',
-                    collapsable: false,
-                    children: ['vue/', 'vue/vuex']
-                },
-                {
-                    title: 'React',
-                    collapsable: false,
-                    children: ['react/']
+                    children: ['', 'lifecycle', 'event']
                 }
             ],
             '/html&css/': [
@@ -137,6 +121,11 @@ module.exports = {
                         'patterns',
                         'cors'
                     ]
+                },
+                {
+                    title: '正则表达式',
+                    collapsable: false,
+                    children: ['reg/']
                 },
                 {
                     title: 'ES6',
@@ -194,9 +183,9 @@ module.exports = {
         '@vuepress/medium-zoom': true,
         '@vuepress/container': true,
         '@vuepress/last-updated': {
-            transformer: timestamp => {
-                return dayjs(timestamp).format('YYYY-MM-DD HH:mm:ss');
+            transformer: (timestamp) => {
+                return dayjs(timestamp).format('YYYY-MM-DD HH:mm:ss')
             }
         }
     }
-};
+}
