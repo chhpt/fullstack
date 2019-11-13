@@ -1,4 +1,4 @@
-# Git
+# Git 使用
 
 Git 是一种分布式[版本控制系统](https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%85%B3%E4%BA%8E%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6)，没有了解过 Git 的同学可以去看看[廖雪峰的教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)，简单易懂。
 

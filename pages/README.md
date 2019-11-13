@@ -33,6 +33,7 @@ footer: MIT Licensed | Copyright © 2018-2019 无亦情
 - [typed.js](https://github.com/mattboldt/typed.js/) 打字机效果实现。
 - [autossh](https://github.com/FeeiCN/autossh) 免密登录 SSH
 - [D2 Daily](https://daily.fairyever.com/)
+- [wxpy](https://github.com/youfou/wxpy)
 
 ### Blogs
 

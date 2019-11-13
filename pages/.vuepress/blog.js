@@ -1,5 +1,4 @@
 module.exports = [
-    '',
     'linux-disk-init',
     'android-publish-lib-to-jcenter',
     'build-windows-booter-on-mac',

@@ -1,4 +1,4 @@
-# VSCode
+# VSCode 简介
 
 ## [内测版本](https://code.visualstudio.com/insiders/)
 

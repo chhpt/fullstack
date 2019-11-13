@@ -66,7 +66,24 @@ module.exports = {
             },
             { text: '数据库', link: '/database/' },
             { text: 'Docker', link: '/docker/' },
-            { text: '工具', link: '/tools/' },
+            {
+                text: '工具',
+                link: '/tools/'
+                // items: [
+                //     {
+                //         text: 'VSCode',
+                //         link: '/vscode/'
+                //     },
+                //     {
+                //         text: 'Mac',
+                //         link: '/mac/'
+                //     },
+                //     {
+                //         text: 'Git',
+                //         link: '/git/'
+                //     }
+                // ]
+            },
             { text: 'Github', link: 'https://github.com/chhpt/the-full-stack-way' }
         ],
         displayAllHeaders: true,
@@ -164,14 +181,7 @@ module.exports = {
                 }
             ],
             '/operating-system/': ['', 'file'],
-            '/tools/': [
-                '',
-                {
-                    title: '编辑器',
-                    collapsable: false,
-                    children: ['vscode/', 'vscode/plugin']
-                }
-            ]
+            '/tools/': ['vscode/', 'vscode/plugin', 'git/', 'mac/']
         }
     },
     plugins: {

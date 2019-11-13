@@ -44,7 +44,7 @@ class LoggingButton extends React.Component {
 
 如果 DOM 上绑定了过多的事件处理函数，整个页面响应以及内存占用可能都会受到影响。React 为了避免这类 DOM 事件滥用，同时屏蔽底层不同浏览器之间的事件系统差异，实现了自己的事件处理系统 - SyntheticEvent。它是浏览器原生事件的跨浏览器封装，除兼容所有浏览器外，它还拥有和浏览器原生事件相同的接口，包括 `stopPropagation()` 和 `preventDefault()` 等，如果需要使用浏览器原生的事件，可以使用 nativeEvent 属性获取。
 
-React 并不将事件直接绑在真实 DOM 上，而是在 document 处监听所有支持的事件，当事件发生并冒泡至 document 处时，React 将事件内容封装并交由真正的处理函数运行。React 会维护一个事件池，重用事件池中的 SyntheticEvent 对象。在事件回调函数被调用后，事件所有的属性都会被清楚，所以 `event` 的属性无法被异步访问。
+React 并不将事件直接绑在真实 DOM 上，而是在 document 处监听所有支持的事件，当事件发生并冒泡至 document 处时，React 将事件内容封装并交由真正的处理函数运行。React 会维护一个事件池，重用事件池中的 SyntheticEvent 对象。在事件回调函数被调用后，事件所有的属性都会被删除，所以 `event` 的属性无法被异步访问。
 
 ```js
 function onClick(event) {
