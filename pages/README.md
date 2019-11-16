@@ -7,8 +7,6 @@ sidebarDepth: 1
 footer: MIT Licensed | Copyright © 2018-2019 无亦情
 ---
 
-[![CircleCI](https://circleci.com/gh/chhpt/the-full-stack-way.svg?style=svg)](https://circleci.com/gh/chhpt/the-full-stack-way)
-
 ### 目录
 
 - [操作系统](./operating-system/README.md)
