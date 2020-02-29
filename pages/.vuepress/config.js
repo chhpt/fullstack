@@ -16,7 +16,6 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: '首页', link: '/' },
-            { text: '博客', link: '/blog/' },
             {
                 text: '计算机基础',
                 items: [
@@ -89,7 +88,6 @@ module.exports = {
         displayAllHeaders: true,
         lastUpdated: '上次更新',
         sidebar: {
-            '/blog/': blogList,
             '/data-structure-and-algorithms/': ['', 'problems', 'array/', 'string/', 'linked-list/'],
             '/docker/': ['', 'intro'],
             '/engineering/': [
