@@ -63,7 +63,16 @@ module.exports = {
                 text: 'Node',
                 link: '/node/'
             },
-            { text: '数据库', link: '/database/' },
+            {
+                text: '数据库',
+                link: '/database/',
+                items: [
+                    {
+                        text: 'Redis',
+                        link: '/redis/'
+                    }
+                ]
+            },
             { text: 'Docker', link: '/docker/' },
             {
                 text: '工具',
@@ -158,13 +167,14 @@ module.exports = {
                     children: ['tips/']
                 }
             ],
-            '/mini-program/': [
-                {
-                    title: '小程序',
-                    collapsable: false,
-                    children: ['', 'base', 'mpvue', 'mp', 'cloud']
-                }
-            ],
+            // 隐藏小程序
+            // '/mini-program/': [
+            //     {
+            //         title: '小程序',
+            //         collapsable: false,
+            //         children: ['', 'base', 'mpvue', 'mp', 'cloud']
+            //     }
+            // ],
             '/network/': ['', 'http', 'security', 'performance'],
             '/node/': [
                 {
