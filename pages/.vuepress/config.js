@@ -5,7 +5,7 @@ require('dayjs/locale/zh-cn')
 dayjs.locale('zh-cn')
 
 module.exports = {
-    base: '/the-full-stack-way/',
+    base: '/',
     title: 'The Full Stack Way',
     theme: '@vuepress/default',
     locales: {
