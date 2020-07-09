@@ -23,26 +23,6 @@ footer: MIT Licensed | Copyright © 2018-2019 无亦情
 - [Node](./node/README.md)
 - [工具](./tools/README.md)
 
-
-### 一些有趣的项目
-
-- [Lodash](https://lodash.com/) 一个现代 JavaScript 实用程序库，提供模块化，性能和附加功能。
-- [iconfont](http://www.iconfont.cn/) 小图标解决方案，小巧，多样。
-- [typed.js](https://github.com/mattboldt/typed.js/) 打字机效果实现。
-- [autossh](https://github.com/FeeiCN/autossh) 免密登录 SSH
-- [D2 Daily](https://daily.fairyever.com/)
-- [wxpy](https://github.com/youfou/wxpy)
-
-### Blogs
-
-值得关注的博客
-
-- [V8 Blog](https://v8.dev/blog)
-- [冴羽的博客，深入 JavaScript 系列文章，写的很好，非常值得一读](https://github.com/mqyqingfeng/Blog)
-- [木易杨的博客，网易高级前端工程师](https://github.com/yygmind/blog)
-- [Lambda Academy](https://lambda.academy/)
-- [酷壳 - 陈皓（左耳朵耗子）的博客](https://coolshell.cn/)
-
 ### 排版指南
 
 参考[中文文案排版指北](./copywriting-guide.md)
