@@ -1,34 +1,33 @@
 {
-    "name": "the-full-stack-way",
-    "version": "0.1.0",
-    "description": "全栈之路",
-    "main": "README.md",
-    "scripts": {
-        "dev": "vuepress dev pages",
-        "build": "vuepress build pages"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/chhpt/the-full-stack-way.git"
-    },
-    "keywords": [
-        "Web",
-        "Node",
-        "Full Stack"
+  "name": "fullstack",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "dev": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "serve": "docusaurus serve"
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-alpha.64",
+    "@docusaurus/preset-classic": "2.0.0-alpha.64",
+    "@mdx-js/react": "^1.5.8",
+    "clsx": "^1.1.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
     ],
-    "author": "cwuyiqing@gmail.com",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/chhpt/the-full-stack-way/issues"
-    },
-    "homepage": "https://github.com/chhpt/the-full-stack-way#readme",
-    "dependencies": {},
-    "devDependencies": {
-        "@vuepress/plugin-active-header-links": "^1.4.0",
-        "@vuepress/plugin-container": "^1.0.0-alpha.44",
-        "@vuepress/plugin-medium-zoom": "^1.4.0",
-        "@vuepress/theme-default": "^1.4.0",
-        "dayjs": "^1.8.16",
-        "vuepress": "^1.4.0"
-    }
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

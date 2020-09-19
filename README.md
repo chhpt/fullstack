@@ -1,27 +1,33 @@
-# The Full Stack Way
+# Website
 
-从 Web 前端，探索 Full Stack 之路。
+This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
-### 目录
+### Installation
 
-- [操作系统](./pages/operating-system/README.md)
-- [数据结构与算法](./pages/data-structure-and-algorithms/README.md)
-- [Network](./pages/network/README.md)
-- [数据库](./pages/database/README.md)
-- [设计](./pages/design/README.md)
-- Web 前端
-    - [HTML&CSS](./pages/html&css/README.md)
-    - [JavaScript](./pages/javascript/README.md)
-    - [小程序](./pages/mini-program/README.md) 
-    - [Node](./pages/node/README.md)
-    - [框架](./pages/framework/README.md)
-- [工程化](./pages/engineering/README.md)
-- [工具](./pages/tools/README.md)
+```
+$ yarn
+```
 
-### 排版指南
+### Local Development
 
-参考[中文文案排版指北](./pages/copywriting-guide.md)
+```
+$ yarn start
+```
 
-### 其他类似项目
+This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
 
-- [CS-Interview-Knowledge-Map](https://github.com/InterviewMap/CS-Interview-Knowledge-Map)
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+```
+$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
