@@ -6,7 +6,7 @@ module.exports = {
   onBrokenLinks: "throw",
   favicon: "img/favicon.ico",
   organizationName: "chhpt",
-  projectName: "fullstack-way",
+  projectName: "fullstack",
   themeConfig: {
     navbar: {
       title: "FullStack Way",
